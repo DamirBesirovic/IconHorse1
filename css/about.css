@@ -1,0 +1,62 @@
+.aboutContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30vh;
+}
+.aboutContainer h1 {
+  color: #303031;
+}
+.informacije {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.informacije p {
+  padding: 20px;
+  font-size: 20px;
+  color: #303031;
+}
+
+@media (max-width: 1171px) {
+  .informacije p {
+    font-size: 14px;
+  }
+}
+.informacije p a {
+  font-weight: bold;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+
+  margin: 10px;
+  border-radius: 50%;
+  color: #f0f0f0;
+}
